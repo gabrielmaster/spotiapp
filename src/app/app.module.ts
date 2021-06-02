@@ -20,6 +20,7 @@ import { ROUTES } from './app.routes';
 // Pipes
 import { NoimagePipe } from './pipes/noimage.pipe';
 import { LoadingComponent } from './components/shared/loading/loading.component';
+import { DomseguroPipe } from './pipes/domseguro.pipe';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { LoadingComponent } from './components/shared/loading/loading.component'
     NavbarComponent,
     NoimagePipe,
     TarjetasComponent,
-    LoadingComponent
+    LoadingComponent,
+    DomseguroPipe
   ],
   imports: [
     BrowserModule,
